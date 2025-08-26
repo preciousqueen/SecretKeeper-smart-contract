@@ -1,0 +1,11 @@
+[project]
+name = "stacks"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+analysis = ["check_checker"]
+costs_version = 2
+[contracts.secretKeeper]
+path = "contracts/secretKeeper.clar"
+depends_on = []
